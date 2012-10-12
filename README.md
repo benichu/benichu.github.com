@@ -2,7 +2,7 @@
 
 ## License
 
-The following directories and their contents are Copyright [Benjamin Thouret](<ben@2ret.com>)
+The following directories and their contents are Copyright [Benjamin Thouret](mailto:ben@2ret.com)
 You may not reuse anything therein without my permission:
 
 * _posts/
