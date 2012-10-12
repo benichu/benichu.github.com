@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tools we use: VIM
+title: "Tools we use: VIM"
 category: english
 tags: vim tools
 ---
