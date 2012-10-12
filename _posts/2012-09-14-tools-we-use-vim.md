@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Tools we use: VIM
+category: english
+tags: vim tools
 ---
-
-{{ page.title }}
 
 ![2ret-vim image](/images/my_copyright/2ret-vim.png)
 
