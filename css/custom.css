@@ -47,8 +47,8 @@
 #content .engage {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  padding: 14px 14px 0px 110px;
-  background: #FCF6E7 url("http://www.gravatar.com/avatar/84aa33423e488b1e0a67de0da8f3a686?s=100") no-repeat 10px 10px;
+  padding: 14px 14px 0px 120px;
+  background: #FCF6E7 url("http://www.gravatar.com/avatar/84aa33423e488b1e0a67de0da8f3a686?s=100") no-repeat 10px 20px;
   border: 1px solid #D1D0C8;
   font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   font-size: 16px;
@@ -60,6 +60,50 @@
   height:110px;
 }
 
+body.default #content .engage {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 14px 14px 0px 14px;
+  background: #FCF6E7;
+  border: 1px solid #D1D0C8;
+  font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: 5px 0 15px 0;
+  text-align:  left;
+  min-height:110px;
+  height:auto !important;
+  height:110px;
+}
+
+#content .engage h2 {
+  padding-bottom: 0px;
+  margin-left: 0px;
+}
+
+#content .engage table {
+ width: 550px;
+}
+body.default #content .engage table {
+ width: 750px;
+}
+#content .engage table td {
+ padding: 0 10px;
+}
+#content .engage ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#content .engage ul li {
+  padding-left: 0px;
+  height: 30px;
+  margin-bottom: 0px;
+}
+#content .engage ul li span {
+  padding-left: 10px;
+  font-weight: bold;
+}
 #content .original_post {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
