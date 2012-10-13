@@ -1,2 +1,6 @@
-pygments: true
+# Site parameters
 tagline: Benjamin Thouret
+ga: UA-35548726-1           #Google Analytics ID
+
+# Jekyll configuration
+pygments: true
