@@ -8,7 +8,7 @@ tags: vim tools
 ![2ret-vim image](http://benjamin.thouret.com/images/my_copyright/2ret-vim.png)
 
 <p class="original_post codegenome">
-This was originally posted  the 14th of September 2012 by me on <a href="http://www.codegenome.com/en/blog/posts/tools-we-use-vim" target="_blank">Code Genome's blog</a>
+This was originally posted here: <a href="http://www.codegenome.com/en/blog/posts/tools-we-use-vim" target="_blank">Code Genome's blog</a>
 </p>
 
 A big part of creating [Web Applications](http://codegenome.com/blog/posts/la-difference-entre-un-site-web-et-une-application-web) is to write code. We spend a lot of time in text editor and therefore it has to be an extension of ourselves. We each have our own preference at Code Genome. Some of us like to use [textmate](http://macromates.com/), while others prefer [emacs](http://www.gnu.org/software/emacs/) or a full IDE like [RubyMine](http://www.jetbrains.com/ruby/).
@@ -23,8 +23,8 @@ VIM has a steep learning curve. Based on personal experience, it can be very int
 
 Today, I would like to share my VIM setup. It’s easy to install with this one liner command:
 
-```bash
-curl http://2ret.com/vim -L -o - | sh
-```
+{% highlight bash %}
+  $ curl http://2ret.com/vim -L -o - | sh
+{% endhighlight %}
 
 It’s still a work in progress considering some details need to be ironed-out, but I am quite happy with it and am using this as my work setup. The distribution’s [README is available on github](https://github.com/benichu/2ret-vim/blob/master/README.md), do not hesitate to check it out...

@@ -9,10 +9,19 @@
 }
 
 #content p {
+  font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   font-size: 16px;
   margin-top: 0;
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
   line-height: 1.7em;
+}
+
+#content ul {
+  font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  font-size: 16px;
+  list-style-type: disc;
+  margin: 1em 0;
+  padding: 0 0 0 30px;
 }
 
 #content .byline {
@@ -41,17 +50,22 @@
   margin: 2em 3em;
 }
 
-#content p code {
+#content .highlight {
+  margin: 0 0 1em 0;
+  background-color: #eee;
+  font-family: monospace;
   font-size: 12px;
-  background-color: #eeeeee;
-  border: 1px solid #777777;
-  border-radius: 3px;
-  padding: 2px 3px;
+  line-height: 1.2em;
+  padding: 5px 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  overflow: hidden;
+  text-shadow: none;
+  color: #111;
 }
-
-#content ul {
-  list-style-type: disc;
-  margin: 1em 0;
-  padding: 0 0 0 30px;
-  font-size: 16px;
+#content .hightlight code{
+  float: left;
+}
+#content .highlight:hover {
+  overflow: auto;
 }
