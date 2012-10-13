@@ -32,6 +32,34 @@
   color: #777;
 }
 
+#content .latest {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 14px 14px 14px 50px;
+  background: #EEE url("/images/glyphicons/png/glyphicons_049_star.png") no-repeat 10px 10px;
+  font-size: 14px;
+  margin: 5px 0 15px 0;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.6em;
+  text-align:  left;
+}
+
+#content .engage {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 14px 14px 0px 110px;
+  background: #FCF6E7 url("http://www.gravatar.com/avatar/84aa33423e488b1e0a67de0da8f3a686?s=100") no-repeat 10px 10px;
+  border: 1px solid #D1D0C8;
+  font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: 5px 0 15px 0;
+  text-align:  left;
+  min-height:110px;
+  height:auto !important;
+  height:110px;
+}
+
 #content .original_post {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
