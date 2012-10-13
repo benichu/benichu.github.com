@@ -14,3 +14,5 @@ You may not reuse anything therein without my permission:
 
 All design files are licensed under the following terms:
 [themeforest.net - regular license](http://themeforest.net/licenses/regular_extended)
+
+`webfonts/` files and icons are copyrighted by [symbolset](http://symbolset.com/), you need to buy a license before using them!
