@@ -1,10 +1,26 @@
----
-layout: default
----
-<div id="post">
-  <h2 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
-  <section class="byline">
-    {{ page.date | date: "%B %e, %Y" }}
-  </section>
-  {{ content }}
-</div>
+{% include system_head.html %}
+<body class="{{ page.layout }}">
+  <noscript>
+    <link href="/css/nojs.css" rel="stylesheet" type="text/css" media="all" />
+    <div id="nojs">JavaScript seems to be Disabled! This website works best with JavaScript enabled.</div>
+  </noscript>
+  <div id="wrap">
+
+    {% include header.html %}
+
+    <div id="content" class="fixed">
+      <div id="post">
+        <h2 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+        <section class="byline">
+          {{ page.date | date: "%B %e, %Y" }}
+        </section>
+        {{ content }}
+      </div>
+    </div><!-- end #content -->
+
+    {% include system_foot.html %}
+
+  </div><!-- end #wrap -->
+
+</body>
+</html>
