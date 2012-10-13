@@ -75,6 +75,9 @@ body.default #content .engage {
   height:auto !important;
   height:110px;
 }
+body.default #content .engage strong.shameless_plug {
+  display: none;
+}
 
 #content .engage h2 {
   padding-bottom: 0px;
