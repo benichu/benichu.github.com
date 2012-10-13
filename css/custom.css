@@ -33,13 +33,15 @@
 }
 
 #content .original_post {
-  background-color: #EEE;
-  padding: 14px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 14px 14px 14px 50px;
+  background: #EEE url("/images/glyphicons/png/glyphicons_195_circle_info.png") no-repeat 10px 10px;
   font-size: 14px;
   margin: 5px 0 15px 0;
   font-family: Helvetica, sans-serif;
   line-height: 1.6em;
-  text-align: center;
+  text-align:  left;
 }
 
 #content hr {
