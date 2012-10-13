@@ -1,0 +1,35 @@
+#content img {
+  padding: 3px;
+  max-width: 100%;
+  display: inline-block;
+}
+
+#content h2.title a {
+  text-decoration: none;
+}
+
+#content .byline {
+  margin-bottom: 17px;
+  font-family: Helvetica, sans-serif;
+  padding-left: 0px;
+  font-size: 17px;
+  color: #777;
+}
+
+#content .original_post {
+  background-color: #EEE;
+  padding: 14px;
+  font-size: 14px;
+  margin: 5px 0 15px 0;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+#content hr {
+  border: 0;
+  height: 6px;
+  background-image: url("/images/hr.png");
+  background-repeat: repeat-x;
+  margin: 2em 3em;
+}

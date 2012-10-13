@@ -1,5 +1,9 @@
 # Benjamin Thouret's Website/Blog
 
+[Jekyll](http://github.com/mojombo/jekyll)-powered website/blog hosted
+on [GitHub Pages](http://pages.github.com/) for
+[benjamin.thouret.com](http://benjamin.thouret.com)
+
 ## License
 
 The following directories and their contents are Copyright [Benjamin Thouret](mailto:ben@2ret.com)

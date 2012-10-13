@@ -2,5 +2,9 @@
 layout: default
 ---
 <div id="post">
+  <h2 class="title"><a href="{{ page.url }}">{{ page.title }}</a></h2>
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
   {{ content }}
 </div>
