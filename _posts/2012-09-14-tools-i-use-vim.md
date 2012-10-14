@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "Tools we use: VIM"
+title: "Tools I use: VIM"
 category: english
 tags: vim tools
 ---
 
 <p class="original_post codegenome">
-This was originally posted here: <a href="http://www.codegenome.com/en/blog/posts/tools-we-use-vim" target="_blank">Code Genome's blog</a>
+This was originally posted here: <a href="http://www.codegenome.com/en/blog/posts/tools-we-use-vim" target="_blank">Code Genome's blog</a>.
+This is a redacted version, to be more personal.
 </p>
 
 ![2ret-vim image](http://benjamin.thouret.com/images/my_copyright/2ret-vim.png)
 
-A big part of creating [Web Applications](http://codegenome.com/blog/posts/la-difference-entre-un-site-web-et-une-application-web) is to write code. We spend a lot of time in text editor and therefore it has to be an extension of ourselves. We each have our own preference at Code Genome. Some of us like to use [textmate](http://macromates.com/), while others prefer [emacs](http://www.gnu.org/software/emacs/) or a full IDE like [RubyMine](http://www.jetbrains.com/ruby/).
+A big part of creating Web Applications is to write code. I spend a lot of time in text editor and therefore it has to be an extension of myself. We each have our own preference at Code Genome. Some like to use [textmate](http://macromates.com/), while others prefer [emacs](http://www.gnu.org/software/emacs/) or a full IDE like [RubyMine](http://www.jetbrains.com/ruby/).
 
 I personally prefer using [VIM](http://www.vim.org/), as it allows me to:
 
