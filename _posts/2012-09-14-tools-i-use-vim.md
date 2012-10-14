@@ -6,8 +6,7 @@ tags: vim tools
 ---
 
 <p class="original_post codegenome">
-This was originally posted here: <a href="http://www.codegenome.com/en/blog/posts/tools-we-use-vim" target="_blank">Code Genome's blog</a>.
-This is a redacted version, to be more personal.
+This was originally posted here: <a href="http://www.codegenome.com/en/blog/posts/tools-we-use-vim" target="_blank">Code Genome's blog</a>. This is a redacted version, more personal.
 </p>
 
 ![2ret-vim image](http://benjamin.thouret.com/images/my_copyright/2ret-vim.png)
