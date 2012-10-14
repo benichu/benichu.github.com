@@ -15,9 +15,9 @@
   {% endunless %}
 
   <ul id="nav" class="fixed">
-    <li><a href="/index.html" class="{% if page.layout != 'post' %}active{% endif %}">Home</a></li>
+    <li><a href="/index.html" class="{% if page.layout != 'post' and page.url != '/blog.html' %}active{% endif %}">Home</a></li>
     <li>/</li>
-    <li><a href="/blog.html" class="{% if page.layout == 'post' %}active{% endif %}">Portfolio & Blog</a></li>
+    <li><a href="/blog.html" class="{% if page.layout == 'post' or page.url == '/blog.html' %}active{% endif %}">Portfolio & Blog</a></li>
     <li>/</li>
     <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
   </ul><!-- end #nav -->
