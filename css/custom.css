@@ -162,3 +162,17 @@ body.default #content .engage table {
 #content .highlight:hover {
   overflow: auto;
 }
+
+#footer span.easter_egg {
+  float: right;
+  margin-right: 10px;
+}
+
+#footer span.easter_egg a {
+  color: #444;
+  text-decoration: none;
+}
+#footer span.easter_egg a:hover {
+  color: red;
+  text-decoration: none;
+}
