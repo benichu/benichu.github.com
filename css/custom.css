@@ -48,6 +48,18 @@ h1#name a {
   text-align:  left;
 }
 
+#content .coming_soon {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 14px 14px 14px 50px;
+  background: #FCF6E7 url("/images/glyphicons/png/glyphicons_055_stopwatch.png") no-repeat 10px 10px;
+  font-size: 14px;
+  margin: 5px 0 15px 0;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.6em;
+  text-align:  left;
+}
+
 #content .engage {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
