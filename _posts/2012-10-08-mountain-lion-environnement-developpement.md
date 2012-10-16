@@ -5,10 +5,10 @@ category: francais
 tags: OSX tools
 ---
 
-Dans le contexte d'une installation "fraiche" de Mac OSX `Mountain Lion` depuis une clé USB, voici la procédure que j'ai suivie afin d'installer un environnement de développement `Ruby On Rails`:
+Dans le contexte d'une nouvelle installation de Mac OSX `Mountain Lion` depuis une clé USB, voici la procédure que j'ai suivie afin d'installer un environnement de développement `Ruby On Rails`:
 
 
-## Installer XCode, XCode Command Line Tools, XQuartz
+## Installation de XCode, XCode Command Line Tools, XQuartz
 
 * Installer `Xcode 4.5.1` depuis le AppStore;
 * Installer les `Command Line Tools` depuis les preferences de Xcode.
@@ -16,31 +16,32 @@ Dans le contexte d'une installation "fraiche" de Mac OSX `Mountain Lion` depuis 
     Non obligatoire, mais j'ai besoin de support X11 pour certaines de mes applications:
     Il m'a donc fallu installer `XQuartz` disponible au lien suivant: [http://xquartz.macosforge.org/landing/]()
 
-## Installer [iterm2](http://www.iterm2.com/)
+## Installation de [iterm2](http://www.iterm2.com/)
 
 Mon terminal de prédilection, autant l'installer dès maintenant: [http://www.iterm2.com/](http://www.iterm2.com/)
 
-## Installer [homebrew](http://mxcl.github.com/homebrew/)
+## Installation de [homebrew](http://mxcl.github.com/homebrew/)
 
-Tout d'abord exécuter les commades suivantes dans votre terminal (ex: iterm2)
+Tout d'abord exécuter les commandes suivantes dans votre terminal (ex: iterm2)
+
+Le script suivant explique ce qu'il va faire et fera une pause si nécessaire.
 
 {% highlight bash %}
   $ ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
 {% endhighlight %}
 
-Le script explique ce qu'il va faire et fera une pause avant de faire quoi que ce soit.
 Pour être sûr que tout est bien installé:
 
 {% highlight bash %}
   $ brew doctor
 {% endhighlight %}
 
-## Personnaliser les [dotfiles](https://github.com/benichu/dotfiles)
+## Personnalisation de la [configuration bash](https://github.com/benichu/dotfiles)
 
-Pourquoi ne pas utiliser mes fichiers dotfiles sur `bash`?
+Pourquoi ne pas utiliser mes fichiers de configuration de `bash`?
 Voici un lien vers les instructions du [README](https://github.com/benichu/dotfiles/blob/master/README.md)
 
-## Installer [git](http://git-scm.com/)
+## Installation de [git](http://git-scm.com/)
 
 Facile avec `homebrew`!
 
@@ -48,7 +49,7 @@ Facile avec `homebrew`!
   $ brew install git
 {% endhighlight %}
 
-## Installer [rbenv](https://github.com/sstephenson/rbenv)
+## Installation de [rbenv](https://github.com/sstephenson/rbenv)
 
 OS X est livré avec Ruby installé, mais il s'agit d'une version plus ancienne, afin de ne pas jouer avec cette installation par défaut,
 nous allons utiliser `rbenv` et `ruby-build` pour pouvoir gérer et installer facilement nos environnements de développement `Ruby`.
@@ -64,10 +65,15 @@ Pour pouvoir installer les différentes versions de `ruby`, il faut installer `r
 
 {% highlight bash %}
   $ brew install ruby-build
+{% endhighlight %}
+
+Choisissez les versions de [ruby](http://www.ruby-lang.org/) à installer parmi celles disponibles:
+
+{% highlight bash %}
   $ rbenv install -l
 {% endhighlight %}
 
-Choisissez les versions de [ruby](http://www.ruby-lang.org/) à installer. Dans mon cas:
+Dans mon cas:
 
 __ruby 1.9.3__
 
@@ -95,25 +101,25 @@ Il m'a fallu installer `gcc` indépendament pour pouvoir installer des versions 
     ree-1.8.7-2012.02
 {% endhighlight %}
 
-J'installe aussi [rbenv-gemset](https://github.com/jamis/rbenv-gemset) afin de mieux différencier mes `gemsets` de projets.
+J'installe aussi [rbenv-gemset](https://github.com/jamis/rbenv-gemset) afin de mieux différencier les `gemsets` de projets.
 
 {% highlight bash %}
   $ brew install rbenv-gemset
 {% endhighlight %}
 
-## Installer et configurer [MySQL](http://www.mysql.com/)
+## Installation et configuration de [MySQL](http://www.mysql.com/)
 
 {% highlight bash %}
   $ brew install mysql
 {% endhighlight %}
 
-## Installer et configurer [redis](http://redis.io/)
+## Installation et configuration de [redis](http://redis.io/)
 
 {% highlight bash %}
   $ brew install redis
 {% endhighlight %}
 
-## Installer [MacVim](http://code.google.com/p/macvim/)
+## Installation de [MacVim](http://code.google.com/p/macvim/)
 
 {% highlight bash %}
   $ brew install macvim --override-system-vim
@@ -134,7 +140,7 @@ Voici une liste non-exhaustive des utilitaires que j'utilise quotidiennement:
 * [Google Chrome - Navigateur Web](https://www.google.com/intl/en/chrome/)
 * [Alfred - Lanceur d'application](http://www.alfredapp.com/#download-alfred)
 * [SizeUp - Redimensionner rapidement les fenêtres d'application](http://www.irradiatedsoftware.com/sizeup/)
-* [Dropbox - Synchronisation et partage de fichiers](https://www.dropbox.com/)
+* [Dropbox - Synchronisation et partage de fichiers](http://db.tt/2sGgNxwp)
 * [1Password - Centralisation de mes mots de passe](https://agilebits.com/onepassword)
 * [Propane - Client pour Campfire](http://propaneapp.com/)
 * [Sequel Pro - Interface de gestion MySQL](http://www.sequelpro.com/)
