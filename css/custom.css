@@ -42,7 +42,7 @@ body.post h2 a, body.post h3 a {
   line-height: 1.7em;
 }
 
-#content ul {
+body.post #content ul {
   font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
   font-size: 16px;
   list-style-type: disc;
@@ -82,10 +82,10 @@ body.post h2 a, body.post h3 a {
   text-align:  left;
 }
 
-#content .engage {
+body #content .engage {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  padding: 14px 14px 0px 120px;
+  padding: 0px 14px 0px 120px;
   background: #FCF6E7 url("http://www.gravatar.com/avatar/84aa33423e488b1e0a67de0da8f3a686?s=100") no-repeat 10px 20px;
   border: 1px solid #D1D0C8;
   font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
@@ -117,31 +117,31 @@ body.default #content .engage strong.shameless_plug {
   display: none;
 }
 
-#content .engage h2 {
+body #content .engage h2 {
   padding-bottom: 0px;
   margin-left: 0px;
 }
 
-#content .engage table {
+body #content .engage table {
  width: 550px;
 }
 body.default #content .engage table {
  width: 750px;
 }
-#content .engage table td {
+body #content .engage table td {
  padding: 0 10px;
 }
-#content .engage ul {
+body #content .engage ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-#content .engage ul li {
+body #content .engage ul li {
   padding-left: 0px;
   height: 30px;
   margin-bottom: 0px;
 }
-#content .engage ul li span {
+body #content .engage ul li span {
   padding-left: 10px;
   font-weight: bold;
 }
