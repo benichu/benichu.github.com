@@ -55,6 +55,10 @@
     <link rel="stylesheet" type="text/css" href="/js/prettyphoto/css.prettyPhoto.css" />
     <script type="text/javascript" src="/js/prettyphoto/jquery.prettyPhoto.js"></script>
 
+    <!-- //////// RevealJS ////////  -->
+    <link rel="stylesheet" type="text/css" href="/js/reveal/reveal.css" />
+    <script type="text/javascript" src="/js/jquery.reveal.js"></script>
+
     <!-- //////// Customs JS  ////////  -->
     <script type="text/javascript">
       /* <![CDATA[ */
@@ -78,6 +82,11 @@
             wmode: 'opaque',       // Set the flash wmode attribute
             autoplay: true,        // Automatically start videos: True/False
             modal: false           // If set to true, only the close button will close the window
+          });
+          // reveal
+          $('#contact-btn').click(function(e) {
+            e.preventDefault();
+            $('#contact-modal').reveal();
           });
 
         });

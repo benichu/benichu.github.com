@@ -148,11 +148,11 @@ body{
 
     #cv-3 h2.cv-section-name{ padding-top:15px; border-top:6px solid #DBDEE2; }
     #cv-3 ul.cv-section-items li.cv-item{ padding:10px 1px;}
-    #cv-3 ul.cv-section-items li.cv-item h4{ float:left; width:150px; }
+    #cv-3 ul.cv-section-items li.cv-item h2{ float:left; width:210px; padding:5px 1px;}
     #cv-3 ul.cv-section-items li span.topic{ width:150px; }
     #cv-3 ul.cv-section-items li span.level{ margin-right:10px;}
 
-    #cv-3 ul.cv-section-items li.cv-item .cv-item-content{ float:right; width:540px; }
+    #cv-3 ul.cv-section-items li.cv-item .cv-item-content{ float:right; width:480px; }
     #cv-3 #technical-skills ul.cv-section-items li span.topic{ float:none; width:540px; font-size:16px; }
 
 

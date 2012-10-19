@@ -15,13 +15,21 @@
   {% endunless %}
 
   <ul id="nav" class="fixed">
-    <li><a href="/index.html" class="{% if page.layout != 'post' and page.url != '/blog.html' %}active{% endif %}">Home</a></li>
+    <li><a href="/index.html" class="{% if page.layout != 'post' and page.url == '/index.html' %}active{% endif %}">Home</a></li>
     <li>/</li>
     <li><a href="/blog.html" class="{% if page.layout == 'post' or page.url == '/blog.html' %}active{% endif %}">Portfolio & Blog</a></li>
     <li>/</li>
-    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+    <li><a href="/skills.html" class="{% if page.url == '/skills.html' %}active{% endif %}">How I Can Help</a></li>
+    <li>/</li>
+    <li><a id="contact-btn" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
   </ul><!-- end #nav -->
 
   <div class="divider"></div>
 
 </div><!-- end #header -->
+
+<div id="contact-modal" class="reveal-modal small">
+  <h2 class="title">Contact Me</h2>
+  {% include contact_methods.html %}
+  <a class="close-reveal-modal">&#215;</a>
+</div>
