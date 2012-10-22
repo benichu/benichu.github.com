@@ -308,3 +308,20 @@ li.cv-item .tagged ul{ list-style:none; padding-bottom:0px; }
 
 .tags a:hover{background:#555;color:#fff;}
 .tags a:hover:before{border-color:transparent #555 transparent transparent;}
+
+#cv-3 ul.cv-section-items li.cv-item h2 {
+  width: 210px;
+  padding: 5px 1px 5px 40px;
+}
+#cv-3 ul.cv-section-items li.cv-item h2.consulting {
+  background: url(/images/my_copyright/consulting-icon.png) no-repeat left center;
+}
+#cv-3 ul.cv-section-items li.cv-item h2.project_management {
+  background: url(/images/my_copyright/project_management-icon.png) no-repeat left center;
+}
+#cv-3 ul.cv-section-items li.cv-item h2.application_development {
+  background: url(/images/my_copyright/application_development-icon.png) no-repeat left center;
+}
+#cv-3 ul.cv-section-items li.cv-item h2.system_configuration {
+  background: url(/images/my_copyright/system_configuration-icon.png) no-repeat left center;
+}
