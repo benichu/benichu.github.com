@@ -246,15 +246,15 @@ p code {
 /* Pure CSS Post Tags */
 .tagged{
   position:relative;
-  margin-bottom:10px;
+  margin-bottom:0px;
 }
 li.cv-item .tagged ul{ list-style:none; padding-bottom:0px; }
 .tags{
   margin:0;
   padding:0;
-  position:absolute;
-  left:0px;
-  bottom:-10px;
+  /* position:absolute; */
+  /* left:0px; */
+  /* bottom:-15px; */
   list-style:none;
   }
 .tags li, .tags a{

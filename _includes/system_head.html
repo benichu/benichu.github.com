@@ -71,6 +71,10 @@
             Cufon.replace('section.byline, #portfolio h2, h2.cv-section-name, h1#name, .engage h2'); // using cufon with IE6 breaks the layout in some cases
 
           }
+          // Prevent clicks if href="#"
+          $('a[href^=#]').click(function(e) {
+            return e.preventDefault();
+          });
 
           // tooltips
           $('.tip').tipsy({gravity: 'e'}); //  apply class .tip to any <a> tag to make it's  title be displayed like a tooltip
