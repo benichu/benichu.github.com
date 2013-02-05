@@ -4,7 +4,8 @@ name: Benjamin Thouret
 email: ben@thouret.com
 phone: "+1 514-316-7604"
 location: "Montreal, QC"
-tagline: "Senior Software Architect dedicated to helping great companies build successful web applications"
+tagline: "aligning business & technology"
+head_tagline: "Senior Software Architect dedicated to helping great companies build successful web applications"
 ga: UA-35548726-1           #Google Analytics ID
 
 # Jekyll configuration
