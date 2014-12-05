@@ -1,0 +1,64 @@
+==================================================================
+https://keybase.io/bthouret
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://benjamin.thouret.com
+  * I am bthouret (https://keybase.io/bthouret) on keybase.
+  * I have a public key with fingerprint 27BE 8247 B2F3 50FE 033D  0CF4 246D A1D3 3A08 CA48
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "27be8247b2f350fe033d0cf4246da1d33a08ca48",
+            "host": "keybase.io",
+            "key_id": "246da1d33a08ca48",
+            "uid": "cb8503fd45568b97257a4a1e55396e00",
+            "username": "bthouret"
+        },
+        "service": {
+            "hostname": "benjamin.thouret.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1417783717,
+    "expire_in": 157680000,
+    "prev": "284f2db3cd287d155c99ab4ad8954614c529d1227b4beefaedabab4103049261",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFlkV1IFFEUx3ezD10rfTAiWIJumliLzefOzJKFH+k+RCtmH2axzMed3VF3Ztsd
+18zUNgpyIVetHjbQWkhQhEgfJJJQQipdy8J8kIRIqIhIg5QgLLsj+tR9udxzfud/
+zv+etm1JJos50xefciSPO82Jkd+CqTzc29cABE2qB44GUA1XL1lRPTDgDyiqDhyA
+YATIEhQjEDJJYzLESFLCRJkiKLvE4xJJ8hgr8hQLbMCrBY0KJCPwQZiraCiGHm5F
+MnT+52tXE6LA0hgpSxRN21mBYwia4SkehzRNcnaIYQYYhAGV90FEC7pXqw1AHTTa
+AIqGFBEaMxut1wmoVvE+Rc1dI3NFzYc0/AFN10StBhFeXfc7DAG93m9U1EHBvabl
+FhRVQv5RQQgGgoqmAgeOSFFXDHGcwhmGJRmcsQF40a8EoFsxCJqxsxg6RhsYMtyy
+lExIAilKBMtIOE2LHMcLFC+xHE3ZcUqkCU7CCfS5lAChzEOJF1Aex0iM4gg7Dgx3
+F1QNOFAnnfcgyaDiUXkdOQKNlhazdaPJbDFt3rTBWKHJkpK+vtgjsWTTtQMT3vxz
+3ztfegojOcUC2ztBWFemW9IjQF581nN5YW9GftZKgTXRFa/YM5dVeOlVSeXj2/ee
+h998Le4sGBpJT/zVpEfB7OkRz8EX86fDpVu5meP57Wc/3x+NTH0MTZ6adLYNpfXn
+gKXhB0/v9KSOZ1eVUn22hZqiW+HDZ5RoRwrd7JWjY3FpBh99lxg2HRtbrCgLLpe4
+fqaOfrrBw56rTKL6SWZsl2P/ycHWK1HngPirybl8aDYJFubNhVzfwPz7h3V3b+4W
+iwYj5693z751TY6rR0u+NP1pX/HlNZa17+twWWNkf6z5x47uaGXp6/j2gRMflso7
+tqTtzGhN/AM=
+=8KXZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bthouret
+
+==================================================================
+
