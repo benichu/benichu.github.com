@@ -9,4 +9,4 @@ head_tagline: "Senior Software Architect dedicated to helping great companies bu
 ga: UA-35548726-1           #Google Analytics ID
 
 # Jekyll configuration
-pygments: true
+highlighter: true
