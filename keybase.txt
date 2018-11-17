@@ -4,55 +4,59 @@ https://keybase.io/bthouret
 
 I hereby claim:
 
-  * I am an admin of http://benjamin.thouret.com
+  * I am an admin of https://benjamin.thouret.com
   * I am bthouret (https://keybase.io/bthouret) on keybase.
   * I have a public key with fingerprint 27BE 8247 B2F3 50FE 033D  0CF4 246D A1D3 3A08 CA48
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "fingerprint": "27be8247b2f350fe033d0cf4246da1d33a08ca48",
-            "host": "keybase.io",
-            "key_id": "246da1d33a08ca48",
-            "uid": "cb8503fd45568b97257a4a1e55396e00",
-            "username": "bthouret"
-        },
-        "service": {
-            "hostname": "benjamin.thouret.com",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0120f85bd3b0320c4c0e84d708d2f70684917af2d45ee6f47ff1a06d9c3fad17d9340a",
+      "fingerprint": "27be8247b2f350fe033d0cf4246da1d33a08ca48",
+      "host": "keybase.io",
+      "key_id": "246da1d33a08ca48",
+      "kid": "01016c171becca06d222859827d8d0bae9ebf06f13fa68c40894e7e8ef9cb983b5230a",
+      "uid": "cb8503fd45568b97257a4a1e55396e00",
+      "username": "bthouret"
     },
-    "ctime": 1417783717,
-    "expire_in": 157680000,
-    "prev": "284f2db3cd287d155c99ab4ad8954614c529d1227b4beefaedabab4103049261",
-    "seqno": 7,
-    "tag": "signature"
+    "service": {
+      "hostname": "benjamin.thouret.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1542480830,
+  "expire_in": 157680000,
+  "prev": "e92d2a0af4efe725e9c9801c6ef0b41a80c3206b18059cc15a1a38da219d67fd",
+  "seqno": 55,
+  "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 
-owFlkV1IFFEUx3ezD10rfTAiWIJumliLzefOzJKFH+k+RCtmH2axzMed3VF3Ztsd
-18zUNgpyIVetHjbQWkhQhEgfJJJQQipdy8J8kIRIqIhIg5QgLLsj+tR9udxzfud/
-zv+etm1JJos50xefciSPO82Jkd+CqTzc29cABE2qB44GUA1XL1lRPTDgDyiqDhyA
-YATIEhQjEDJJYzLESFLCRJkiKLvE4xJJ8hgr8hQLbMCrBY0KJCPwQZiraCiGHm5F
-MnT+52tXE6LA0hgpSxRN21mBYwia4SkehzRNcnaIYQYYhAGV90FEC7pXqw1AHTTa
-AIqGFBEaMxut1wmoVvE+Rc1dI3NFzYc0/AFN10StBhFeXfc7DAG93m9U1EHBvabl
-FhRVQv5RQQgGgoqmAgeOSFFXDHGcwhmGJRmcsQF40a8EoFsxCJqxsxg6RhsYMtyy
-lExIAilKBMtIOE2LHMcLFC+xHE3ZcUqkCU7CCfS5lAChzEOJF1Aex0iM4gg7Dgx3
-F1QNOFAnnfcgyaDiUXkdOQKNlhazdaPJbDFt3rTBWKHJkpK+vtgjsWTTtQMT3vxz
-3ztfegojOcUC2ztBWFemW9IjQF581nN5YW9GftZKgTXRFa/YM5dVeOlVSeXj2/ee
-h998Le4sGBpJT/zVpEfB7OkRz8EX86fDpVu5meP57Wc/3x+NTH0MTZ6adLYNpfXn
-gKXhB0/v9KSOZ1eVUn22hZqiW+HDZ5RoRwrd7JWjY3FpBh99lxg2HRtbrCgLLpe4
-fqaOfrrBw56rTKL6SWZsl2P/ycHWK1HngPirybl8aDYJFubNhVzfwPz7h3V3b+4W
-iwYj5693z751TY6rR0u+NP1pX/HlNZa17+twWWNkf6z5x47uaGXp6/j2gRMflso7
-tqTtzGhN/AM=
-=8KXZ
+owFtkm9oVlUcx5/1OLL1SGq4Eom2szWF1jh/7z33gYf+kFQgZWIiTbuev9tVn3sf
+n+dutcZY5bKMGJGhGBi1RcGaI8ZeaET1wiBzVjRD/C/9ebHKDAz2Rqxzh3vXeXM4
+P76/7/l8f+e8tSSfa6hrLX8wU1z87eN1J2ZlrvNvNd0PZKL7QLEf7DDzm9mpTS0N
+d0QaFAFEGFrOpCYSEgwVVdBwqn3INbY+9DgNkC8s1pQZ41nqW4sE9HSgiBUa+Tog
+FArQDmwUd5lqpRrFqbPFvjQcU19iSxi0BhKiobIUU08LpAkRkCtBuWvsTmpZh4OT
+omY6osTV3CGcx/sf/QI3RJ5CPpJGqQwIY8xZwLGvuYZSmMBICz2LHKbHFYU8oMY3
+3NhAyYATyTCZ5+6Zt1OSM0isS8k8LgMfM19QgQxjJPAMhJmwZqqxKBunlml30lM1
+KRhoB67aGymTDTZLsqAw8XZRjuKOm8oOlZSdR6WapIlKdjpFd5pWasXMIe2rZC3P
+GxneNAtlFGs3T9fRa6q1KIlBETmlSqPMHTE3Rw45ge3AvFCJqiaMMgXzPQ7dyu4x
+vaAogAmwxgIKS401LpQJVMAhUp6xUFIkOFTu0T2JOGSBUogJJAjXAqNAe77VIMu3
+K05AkTEHKrocZy3qikXqQoGBhr11ZFGuriF3T2PzotVfvPLY5LX1N/Klwj8Ln7D+
+luwH5hpuW7pQefvYrf8OllceOTB2cs1ZPPvr76B+bv9vc7MvToXbZrZ+3zzzUCm8
++uyh3Z82fbX8Gnqtfstkc+vwiotnJjeuXzx25froffDduCf5a9/a80faZnYvP7Vy
+84YTYGQ433bxuSUj+/YWmjYc+8UPpx/QbXfumcr5LQ+vfemzZT+t6zFDrWfb7vqh
+1Dj4SefPfNvljbuu30H/+Ph8TLcsvfzjxN0VVHj1qafHp0uleyeOflcp55/88o3X
+Wef4/ve3TpDPb790o3b/RxdOr56cGyg8M5hG8s2hpic+HO1/+fDolVXHN40dPHng
+TON7/PjQaP7rVeE75x4ZeXB8bFnLulMthYPfzP3ZPrVnxempzY92X+0cbu77Dw==
+=oI0C
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -61,4 +65,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/bthouret
 
 ==================================================================
-
